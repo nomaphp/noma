@@ -1,0 +1,28 @@
+{
+  "name": "noma/noma",
+  "type": "project",
+  "homepage": "https://github.com/nomaphp/noma",
+  "license": "MIT",
+  "authors": [
+    {
+      "name": "Asko Nõmm",
+      "email": "asko@nmm.ee",
+      "homepage": "https://nmm.ee",
+      "role": "Developer"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "\\App\\": "src/"
+    }
+  },
+  "scripts": {
+    "noma": "@php cli/index.php @additional_args"
+  },
+  "require": {
+    "noma/core": "^0.1.0"
+  },
+  "require-dev": {
+    "symfony/var-dumper": "^7.2"
+  }
+}
